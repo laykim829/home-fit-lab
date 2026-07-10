@@ -21,10 +21,24 @@
     "url": "posts/foam-roller-usage-guide.html"
   },
   {
-    "title": "저항밴드 고르는 법: 강도별 색상 구분과 라텍스 vs 패브릭 비교",
-    "category": "저항밴드",
-    "summary": "저항밴드(탄력밴드) 종류부터 강도별 색상 구분, 라텍스와 패브릭 소재 비교, 안전하게 오래 쓰는 법까지 홈트 저항밴드 고르는 기준을 정리했습니다.",
-    "date": "2026-07-09",
-    "url": "posts/resistance-band-guide.html"
+    "title": "초보자 홈트 루틴 짜는 법: 주 3회 30분 계획표",
+    "category": "운동 루틴",
+    "summary": "처음 홈트를 시작하는 분들을 위한 주 3회 30분 루틴 짜는 법. 요일별 부위 분배와 세트 구성 기준.",
+    "date": "2026-07-10",
+    "url": "posts/beginner-home-workout-routine.html"
+  },
+  {
+    "title": "유산소 없이 살 빼는 홈트 근력 루틴",
+    "category": "운동 루틴",
+    "summary": "러닝 없이도 체지방을 줄일 수 있는 홈트 근력 서킷 루틴. 동작 구성과 휴식 시간 기준.",
+    "date": "2026-07-10",
+    "url": "posts/home-workout-fat-loss-routine.html"
+  },
+  {
+    "title": "하루 10분 스트레칭 루틴: 아침·저녁 구분법",
+    "category": "스트레칭",
+    "summary": "아침에는 몸을 깨우고 저녁에는 긴장을 푸는 하루 10분 스트레칭 루틴.",
+    "date": "2026-07-10",
+    "url": "posts/daily-10min-stretching-routine.html"
   }
 ]

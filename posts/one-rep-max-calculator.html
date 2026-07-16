@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FT85MDCPDH"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-FT85MDCPDH');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1RM 계산기 (최대 들 수 있는 무게 계산) | 홈트 연구소</title>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6162930467504910" crossorigin="anonymous"></script>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({
+google_ad_client: "ca-pub-6162930467504910",
+enable_page_level_ads: true
+});
+</script>
+<meta name="description" content="수행 무게와 반복 횟수를 입력하면 1RM(최대 1회 들 수 있는 무게)을 추정해주는 계산기입니다.">
+<meta name="keywords" content="1RM 계산기, 최대중량 계산, 근력운동 1RM, 벤치프레스 1RM">
+<link rel="canonical" href="https://laykim829.github.io/home-fit-lab/posts/one-rep-max-calculator.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="홈트 연구소">
+<meta property="og:title" content="1RM 계산기 (최대 들 수 있는 무게 계산) | 홈트 연구소">
+<meta property="og:description" content="수행 무게와 반복 횟수를 입력하면 1RM(최대 1회 들 수 있는 무게)을 추정해주는 계산기입니다.">
+<meta property="og:url" content="https://laykim829.github.io/home-fit-lab/posts/one-rep-max-calculator.html">
+<meta property="og:locale" content="ko_KR">
+<style>
+:root{
+--bg:#14151a; --bg2:#191a21; --card:#1e2028; --accent:#ff5722; --accent2:#c6ff00;
+--text:#f2f2f0; --muted:#9a9aa5; --border:#2a2c36;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;}
+a{color:inherit;text-decoration:none;}
+header{position:sticky;top:0;z-index:100;background:rgba(20,21,26,0.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);}
+.nav-wrap{max-width:800px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:16px 20px;}
+.logo{font-size:1.2rem;font-weight:800;}
+.logo span{color:var(--accent);}
+.back-link{font-size:0.85rem;color:var(--muted);}
+.article-wrap{max-width:800px;margin:0 auto;padding:50px 20px 80px;}
+.cat-badge{display:inline-block;background:var(--card);border:1px solid var(--border);color:var(--accent2);
+font-size:0.78rem;font-weight:700;padding:5px 14px;border-radius:20px;margin-bottom:18px;}
+h1{font-size:2rem;font-weight:800;line-height:1.4;margin-bottom:12px;}
+.meta{color:var(--muted);font-size:0.85rem;margin-bottom:36px;}
+.article-body h2{font-size:1.3rem;margin:36px 0 14px;color:var(--text);}
+.article-body p{color:#c9cad2;font-size:1rem;margin-bottom:16px;}
+.article-body ul{color:#c9cad2;margin:0 0 16px 22px;}
+.article-body li{margin-bottom:8px;}
+.ad-box{border:1px dashed #3a3d4a;background:#191a2133;border-radius:12px;padding:22px;text-align:center;
+color:var(--muted);font-size:0.85rem;margin:34px 0;}
+.disclosure{margin-top:40px;padding-top:20px;border-top:1px dashed var(--border);color:#6d6f7d;font-size:0.78rem;}
+footer{border-top:1px solid var(--border);padding:30px 20px;color:var(--muted);font-size:0.82rem;text-align:center;}
+footer a{color:var(--accent2);margin:0 8px;}
+.calc-box{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px;margin:24px 0 36px;}
+.calc-row{margin-bottom:16px;}
+.calc-row label{display:block;font-size:0.88rem;color:var(--muted);margin-bottom:6px;}
+.calc-row input{width:100%;padding:11px 14px;border-radius:8px;border:1px solid var(--border);
+background:#0d0e12;color:var(--text);font-size:0.95rem;}
+.calc-btn{width:100%;padding:13px;border:none;border-radius:8px;font-weight:700;font-size:0.95rem;cursor:pointer;
+background:linear-gradient(90deg,var(--accent),var(--accent2));color:#14151a;margin-top:6px;}
+.calc-result{margin-top:20px;padding:18px;border-radius:10px;background:#0d0e12;border:1px solid var(--border);
+text-align:center;font-size:1.05rem;font-weight:700;color:var(--accent2);display:none;}
+</style>
+</head>
+<body>
+
+<header>
+<div class="nav-wrap">
+<div class="logo">홈트<span>연구소</span></div>
+<a href="../index.html" class="back-link">← 홈으로</a>
+</div>
+</header>
+
+<div class="article-wrap">
+<span class="cat-badge">계산기</span>
+<h1>1RM 계산기 (최대 들 수 있는 무게 계산)</h1>
+<div class="meta">2026-07-16 · 홈트 연구소</div>
+
+<div class="hero-banner" style="border-radius:16px;overflow:hidden;margin-bottom:36px;">
+<img src="https://picsum.photos/seed/one-rep-max-calculator/800/400" alt="1RM 계산기" loading="lazy" style="width:100%;height:260px;object-fit:cover;display:block;">
+</div>
+
+<div class="article-body">
+<p>1RM(1 Rep Max)은 한 번에 들 수 있는 최대 무게입니다. 매번 최대 무게로 테스트하는 것은 부상 위험이 있어, 가벼운 무게로 여러 번 반복한 기록으로 1RM을 추정하는 방법이 널리 쓰입니다.</p>
+
+<div class="calc-box">
+<div class="calc-row">
+<label for="rmWeight">수행 무게 (kg)</label>
+<input type="number" id="rmWeight" placeholder="예: 60" min="1">
+</div>
+<div class="calc-row">
+<label for="rmReps">반복 횟수 (회)</label>
+<input type="number" id="rmReps" placeholder="예: 8" min="1" max="15">
+</div>
+<button class="calc-btn" onclick="calcRM()">1RM 계산하기</button>
+<div class="calc-result" id="rmResult"></div>
+</div>
+
+<h2>1. 계산 원리 (Epley 공식)</h2>
+<p>가장 널리 쓰이는 Epley 공식은 '1RM = 무게 × (1 + 반복횟수/30)'입니다. 예를 들어 60kg으로 8회를 들었다면 1RM은 약 76kg으로 추정됩니다.</p>
+
+<h2>2. 활용 팁</h2>
+<ul>
+<li>훈련 강도는 보통 1RM의 60~85% 수준에서 설정</li>
+<li>반복 횟수가 15회를 넘으면 추정 오차가 커지므로 3~10회 범위에서 측정 권장</li>
+<li>실제 최대 무게 테스트는 충분한 웜업과 보조자 없이 시도하지 않는 것이 안전</li>
+</ul>
+
+<div class="ad-box" style="padding:20px;">
+<div style="font-size:0.78rem;color:var(--accent2);font-weight:700;margin-bottom:10px;">📦 이 글에서 추천하는 상품</div>
+<a href="https://link.coupang.com/a/fcO24Vwlq0" target="_blank" rel="noopener sponsored" style="display:inline-block;background:var(--accent);color:#14151a;font-weight:700;font-size:0.92rem;padding:12px 30px;border-radius:10px;margin:4px 0;">홈트 덤벨·바벨 보러가기 →</a>
+<p style="font-size:0.72rem;color:#6d6f7d;margin-top:12px;">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+</div>
+
+<p>1RM은 훈련 강도를 설정하는 기준점일 뿐, 절대적인 목표가 아닙니다. 무리한 중량 도전보다는 점진적 과부하 원칙에 따라 서서히 늘려가는 것이 부상 없이 근력을 키우는 방법입니다.</p>
+</div>
+
+<div class="ad-box" style="padding:16px;">
+<style>
+.adfit-mobile{display:none;}
+@media (max-width:720px){
+.adfit-desktop{display:none;}
+.adfit-mobile{display:block;}
+}
+</style>
+<div class="adfit-desktop" style="text-align:center;">
+<ins class="kakao_ad_area" style="display:none;"
+data-ad-unit="DAN-xZM3jssiMRtJwEaQ"
+data-ad-width="728"
+data-ad-height="90"></ins>
+</div>
+<div class="adfit-mobile" style="text-align:center;">
+<ins class="kakao_ad_area" style="display:none;"
+data-ad-unit="DAN-Rp0dD6HDiwIV9Nak"
+data-ad-width="320"
+data-ad-height="100"></ins>
+</div>
+<script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
+</div>
+
+<div class="disclosure">
+※ 이 글에는 제휴 마케팅 링크가 포함될 수 있으며, 이를 통해 발생한 구매에 대해 사이트 운영자가 소정의 수수료를 받을 수 있습니다. 계산 결과는 추정치이며 실제 수행 능력과 차이가 있을 수 있습니다.
+</div>
+</div>
+
+<footer>
+<a href="../about.html">사이트 소개</a>·
+<a href="../privacy.html">개인정보처리방침</a>
+<div style="margin-top:10px;">© 2026 홈트 연구소</div>
+</footer>
+
+<script>
+function calcRM(){
+var w = parseFloat(document.getElementById('rmWeight').value);
+var r = parseFloat(document.getElementById('rmReps').value);
+var box = document.getElementById('rmResult');
+if(!w || !r || w <= 0 || r <= 0){
+box.style.display='block';
+box.textContent='무게와 반복 횟수를 정확히 입력해주세요.';
+return;
+}
+var rm = w * (1 + r/30);
+box.style.display='block';
+box.textContent = '추정 1RM: 약 ' + Math.round(rm) + 'kg';
+}
+</script>
+</body>
+</html>

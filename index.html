@@ -138,22 +138,25 @@ background:var(--card);border:1px solid var(--border);border-radius:14px;overflo
 .blog-body p{color:var(--muted);font-size:0.85rem;}
 .blog-body .read-more{display:inline-block;margin-top:10px;font-size:0.85rem;color:var(--accent2);font-weight:600;}
 
-.newsletter{
+.mini-tools{
 background:linear-gradient(135deg,#2a1a10,#1a2a05);
-border-radius:20px;padding:50px 30px;text-align:center;margin:60px auto;max-width:1100px;
+border-radius:20px;padding:50px 30px;margin:60px auto;max-width:1100px;
 }
-.newsletter h2{font-size:1.6rem;margin-bottom:10px;}
-.newsletter p{color:var(--muted);margin-bottom:22px;}
-.nl-form{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;}
-.nl-form input{
-padding:12px 16px;border-radius:8px;border:1px solid var(--border);
-background:#0d0e12;color:var(--text);min-width:250px;
+.mini-tools .section-head h2{color:#fff;}
+.mini-tools .section-head p{color:#d8d4cc;}
+.mini-tool-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:30px;}
+.mini-tool-card{
+background:rgba(13,14,18,0.55);border:1px solid rgba(255,255,255,0.12);border-radius:14px;
+padding:22px;text-align:center;transition:.2s;
 }
-.nl-form button{
-padding:12px 22px;border:none;border-radius:8px;font-weight:700;cursor:pointer;
-background:linear-gradient(90deg,var(--accent),var(--accent2));color:#14151a;
+.mini-tool-card:hover{transform:translateY(-3px);border-color:var(--accent2);}
+.mini-tool-card .icon{font-size:1.8rem;margin-bottom:10px;}
+.mini-tool-card h3{font-size:1rem;color:#fff;margin-bottom:6px;}
+.mini-tool-card p{font-size:0.8rem;color:#c9c5be;margin-bottom:14px;min-height:34px;}
+.mini-tool-card .go-btn{
+display:inline-block;font-size:0.82rem;font-weight:700;color:var(--accent2);
+border:1px solid var(--accent2);padding:7px 16px;border-radius:20px;
 }
-.nl-msg{margin-top:14px;font-size:0.85rem;color:var(--accent2);min-height:20px;}
 
 footer{border-top:1px solid var(--border);padding:40px 20px;color:var(--muted);font-size:0.82rem;}
 .footer-wrap{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;}
@@ -197,7 +200,7 @@ body{padding-bottom:90px;}
 <ul id="navList">
 <li><a href="#tools">추천 홈트 기구</a></li>
 <li><a href="#blog">운동 가이드</a></li>
-<li><a href="#newsletter">뉴스레터</a></li>
+<li><a href="#tools-mini">미니 도구</a></li>
 <li><a href="#footer">문의</a></li>
 </ul>
 </nav>
@@ -383,14 +386,38 @@ new PartnersCoupang.G({"id":1003715,"trackingCode":"AF3401189","subId":null,"tem
 </div>
 </section>
 
-<div class="newsletter" id="newsletter">
-<h2>매주 새로운 홈트 정보 받아보기</h2>
-<p>이메일을 남기면 신규 홈트 기구 리뷰와 운동 가이드를 무료로 보내드립니다.</p>
-<form class="nl-form" id="nlForm">
-<input type="email" id="nlEmail" placeholder="이메일 주소 입력" required>
-<button type="submit">무료 구독하기</button>
-</form>
-<div class="nl-msg" id="nlMsg"></div>
+<div class="mini-tools" id="tools-mini">
+<div class="section-head">
+<div class="kicker">Mini Tools</div>
+<h2>홈트 계산기 모음</h2>
+<p>BMI, 칼로리 소모량, 1RM, 체지방률까지 바로 계산해보세요.</p>
+</div>
+<div class="mini-tool-grid">
+<div class="mini-tool-card">
+<div class="icon">⚖️</div>
+<h3>BMI 계산기</h3>
+<p>체질량지수·비만도 판정</p>
+<a href="posts/bmi-calculator.html" class="go-btn">계산하러 가기 →</a>
+</div>
+<div class="mini-tool-card">
+<div class="icon">🔥</div>
+<h3>칼로리 소모량 계산기</h3>
+<p>운동별 소모 칼로리 확인</p>
+<a href="posts/calorie-burn-calculator.html" class="go-btn">계산하러 가기 →</a>
+</div>
+<div class="mini-tool-card">
+<div class="icon">🏋️</div>
+<h3>1RM 계산기</h3>
+<p>최대 들 수 있는 무게 추정</p>
+<a href="posts/one-rep-max-calculator.html" class="go-btn">계산하러 가기 →</a>
+</div>
+<div class="mini-tool-card">
+<div class="icon">📏</div>
+<h3>체지방률 계산기</h3>
+<p>허리둘레 기반 간이 측정</p>
+<a href="posts/body-fat-calculator.html" class="go-btn">계산하러 가기 →</a>
+</div>
+</div>
 </div>
 
 <div class="ad-slot">
@@ -463,7 +490,7 @@ data-ad-height="100"></ins>
 </div>
 <div class="footer-wrap">
 <div>© 2026 홈트 연구소. All rights reserved.</div>
-<div><a href="about.html" style="color:var(--accent2);">사이트 소개</a> · <a href="privacy.html" style="color:var(--accent2);">개인정보처리방침</a> · 문의: contact@example.com</div>
+<div><a href="about.html" style="color:var(--accent2);">사이트 소개</a> · <a href="privacy.html" style="color:var(--accent2);">개인정보처리방침</a> · 문의: dackc982@gmail.com</div>
 </div>
 </footer>
 
@@ -471,15 +498,6 @@ data-ad-height="100"></ins>
 const menuBtn = document.getElementById('menuBtn');
 const navList = document.getElementById('navList');
 menuBtn.addEventListener('click', () => navList.classList.toggle('open'));
-
-const nlForm = document.getElementById('nlForm');
-const nlMsg = document.getElementById('nlMsg');
-nlForm.addEventListener('submit', (e) => {
-e.preventDefault();
-const email = document.getElementById('nlEmail').value;
-nlMsg.textContent = `${email} 구독이 완료되었습니다! (데모용 - 실제 발송 연동 필요)`;
-nlForm.reset();
-});
 
 const PAGE_SIZE = 8;
 function renderPosts(grid, list) {

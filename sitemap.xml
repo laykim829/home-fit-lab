@@ -1,75 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://laykim829.github.io/home-fit-lab/</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://laykim829.github.io/home-fit-lab/about.html</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://laykim829.github.io/home-fit-lab/privacy.html</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://laykim829.github.io/home-fit-lab/posts/jump-rope-guide.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://laykim829.github.io/home-fit-lab/posts/resistance-band-strength-guide.html</loc>
-    <lastmod>2026-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://laykim829.github.io/home-fit-lab/posts/beginner-home-workout-routine.html</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://laykim829.github.io/home-fit-lab/posts/home-workout-fat-loss-routine.html</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://laykim829.github.io/home-fit-lab/posts/daily-10min-stretching-routine.html</loc>
-    <lastmod>2026-07-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://laykim829.github.io/home-fit-lab/posts/resistance-band-guide.html</loc>
-    <lastmod>2026-07-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://laykim829.github.io/home-fit-lab/posts/yoga-mat-thickness-guide.html</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://laykim829.github.io/home-fit-lab/posts/adjustable-dumbbell-guide.html</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://laykim829.github.io/home-fit-lab/posts/foam-roller-usage-guide.html</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/</loc>
+<lastmod>2026-07-16</lastmod>
+<changefreq>daily</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/about.html</loc>
+<lastmod>2026-07-14</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/privacy.html</loc>
+<lastmod>2026-07-16</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/posts/bmi-calculator.html</loc>
+<lastmod>2026-07-16</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/posts/calorie-burn-calculator.html</loc>
+<lastmod>2026-07-16</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/posts/one-rep-max-calculator.html</loc>
+<lastmod>2026-07-16</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/posts/body-fat-calculator.html</loc>
+<lastmod>2026-07-16</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/posts/jump-rope-guide.html</loc>
+<lastmod>2026-07-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/posts/resistance-band-strength-guide.html</loc>
+<lastmod>2026-07-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/posts/beginner-home-workout-routine.html</loc>
+<lastmod>2026-07-10</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/posts/home-workout-fat-loss-routine.html</loc>
+<lastmod>2026-07-10</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/posts/daily-10min-stretching-routine.html</loc>
+<lastmod>2026-07-10</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/posts/resistance-band-guide.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/posts/yoga-mat-thickness-guide.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/posts/adjustable-dumbbell-guide.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://laykim829.github.io/home-fit-lab/posts/foam-roller-usage-guide.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
 </urlset>

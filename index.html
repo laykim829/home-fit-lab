@@ -25,12 +25,6 @@
 <meta name="twitter:title" content="홈트 연구소 | 홈트레이닝 기구 추천과 운동 가이드">
 <meta name="twitter:description" content="요가매트, 덤벨, 폼롤러까지. 홈트레이닝에 필요한 운동기구를 실제 비교하고 검증한 추천 가이드와 운동법을 정리합니다.">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6162930467504910" crossorigin="anonymous"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-6162930467504910",
-    enable_page_level_ads: true
-  });
-</script>
 <style>
   :root{
     --bg:#14151a;
@@ -75,16 +69,11 @@
   .menu-btn{display:none;background:none;border:none;color:var(--text);font-size:1.4rem;cursor:pointer;}
 
   .hero{
-    position:relative;
-    background:
-      linear-gradient(180deg, rgba(14,15,20,0.82), rgba(14,15,20,0.6)),
-      url('https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1600&q=75') center/cover no-repeat;
-    padding:100px 20px 90px;
+    max-width:1100px;margin:0 auto;padding:80px 20px 60px;
     text-align:center;
-    color:#f2f2f0;
   }
   .hero .tag{
-    display:inline-block;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.18);
+    display:inline-block;background:var(--card);border:1px solid var(--border);
     padding:6px 16px;border-radius:20px;font-size:0.8rem;color:var(--accent2);margin-bottom:20px;
   }
   .hero h1{
@@ -95,13 +84,13 @@
     background:linear-gradient(90deg,var(--accent),var(--accent2));
     -webkit-background-clip:text;background-clip:text;color:transparent;
   }
-  .hero p{color:#d4d5d2;font-size:1.05rem;max-width:600px;margin:0 auto 30px;}
+  .hero p{color:var(--muted);font-size:1.05rem;max-width:600px;margin:0 auto 30px;}
   .hero-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;}
   .btn-primary,.btn-ghost{
     padding:13px 26px;border-radius:10px;font-weight:700;font-size:0.95rem;display:inline-block;
   }
   .btn-primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#14151a;}
-  .btn-ghost{border:1px solid rgba(255,255,255,0.35);color:#f2f2f0;}
+  .btn-ghost{border:1px solid var(--border);color:var(--text);}
 
   .ad-slot{
     max-width:1100px;margin:0 auto;padding:0 20px;
@@ -118,10 +107,6 @@
   .section-head .kicker{color:var(--accent2);font-size:0.85rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;}
   .section-head h2{font-size:1.9rem;margin-top:8px;}
   .section-head p{color:var(--muted);margin-top:10px;}
-  .related-guides{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:16px;}
-  .related-guides span.lbl{background:#262a1a;color:var(--accent2);font-size:0.72rem;padding:4px 10px;border-radius:8px;font-weight:700;}
-  .related-guides a{background:var(--card);border:1px solid var(--border);color:var(--muted);font-size:0.78rem;padding:4px 12px;border-radius:20px;transition:.2s;}
-  .related-guides a:hover{color:var(--text);border-color:var(--accent);}
 
   .tool-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;}
   .tool-card{
@@ -283,83 +268,37 @@
 
 <section class="block" id="tools">
   <div class="section-head">
-    <div class="kicker">Weekly Ranking</div>
-    <h2>이번 주 홈트 용품 랭킹</h2>
-    <p>애드픽 제휴몰 실데이터를 기반으로 정리한 홈트 필수템 랭킹입니다. 매주 업데이트됩니다.</p>
-    <div class="related-guides">
-      <span class="lbl">관련 가이드</span>
-      <a href="posts/yoga-mat-thickness-guide.html">요가매트 두께 선택 가이드 →</a>
-      <a href="posts/adjustable-dumbbell-guide.html">홈트 덤벨 세트 가이드 →</a>
-    </div>
+    <div class="kicker">Editor's Pick</div>
+    <h2>지금 확인하면 좋은 홈트 기구 가이드</h2>
+    <p>가장 많이 찾는 홈트 필수템부터, 실전 선택 기준으로 정리했습니다.</p>
   </div>
   <div class="tool-grid">
 
-    <div class="tool-card" style="background:linear-gradient(rgba(20,20,24,.82),rgba(20,20,24,.9)),url('https://picsum.photos/seed/%EC%9A%94%EA%B0%80%EB%A7%A4%ED%8A%B8/500/500') center/cover no-repeat;">
+    <div class="tool-card">
       <span class="rank">1위</span>
-      <h3>star 요가매트 NBR 15mm</h3>
-      <p>전용 스트랩 포함, 15mm 두께로 무릎·손목 부담을 줄여주는 요가·필라테스용 매트</p>
-      <div class="tool-tags"><span>요가매트</span><span>21,700원</span></div>
-      <a href="https://bitl.bz/nb5nlm" class="aff-btn" target="_blank" rel="sponsored noopener">최저가 확인하기 →</a>
+      <h3>요가매트 두께 선택</h3>
+      <p>6mm와 10mm, 용도에 따라 어떤 두께가 맞는지 헷갈리는 분들을 위한 요가매트 두께별 비교 가이드입니다.</p>
+      <div class="tool-tags"><span>요가매트</span><span>스트레칭</span></div>
+      <a href="posts/yoga-mat-thickness-guide.html" class="aff-btn">가이드 보러가기 →</a>
     </div>
 
-    <div class="tool-card" style="background:linear-gradient(rgba(20,20,24,.82),rgba(20,20,24,.9)),url('https://picsum.photos/seed/%ED%8F%BC%EB%A1%A4%EB%9F%AC/500/500') center/cover no-repeat;">
+    <div class="tool-card">
       <span class="rank">2위</span>
-      <h3>멜킨스포츠 EVA 폼롤러 (45/60/91cm)</h3>
-      <p>운동 전후 근막이완에 좋은 EVA 폼롤러, 사이즈별로 골라 쓸 수 있어요</p>
-      <div class="tool-tags"><span>폼롤러</span><span>11,900원</span></div>
-      <a href="https://bitl.bz/2VmWOW" class="aff-btn" target="_blank" rel="sponsored noopener">최저가 확인하기 →</a>
+      <h3>홈트 덤벨 세트</h3>
+      <p>고정식과 조절식 덤벨의 차이, 좁은 공간에서 효율적으로 쓸 수 있는 덤벨 세트 고르는 법을 정리했습니다.</p>
+      <div class="tool-tags"><span>덤벨</span><span>근력운동</span></div>
+      <a href="posts/adjustable-dumbbell-guide.html" class="aff-btn">가이드 보러가기 →</a>
     </div>
 
-    <div class="tool-card" style="background:linear-gradient(rgba(20,20,24,.82),rgba(20,20,24,.9)),url('https://picsum.photos/seed/%EB%8D%A4%EB%B2%A8/500/500') center/cover no-repeat;">
+    <div class="tool-card">
       <span class="rank">3위</span>
-      <h3>아이워너 맨즈 육각아령 2개세트 (4~10kg)</h3>
-      <p>선택 가능한 무게로 근력운동을 시작하기 좋은 육각 아령 세트</p>
-      <div class="tool-tags"><span>덤벨</span><span>18,100원</span></div>
-      <a href="https://bitl.bz/N3nhMd" class="aff-btn" target="_blank" rel="sponsored noopener">최저가 확인하기 →</a>
-    </div>
-
-    <div class="tool-card" style="background:linear-gradient(rgba(20,20,24,.82),rgba(20,20,24,.9)),url('https://picsum.photos/seed/%EC%9A%94%EA%B0%80%EB%B8%94%EB%A1%9D/500/500') center/cover no-repeat;">
-      <span class="rank">4위</span>
-      <h3>요가블록 EVA 고밀도 필라테스 블록</h3>
-      <p>스트레칭·필라테스 동작 보조에 유용한 고밀도 EVA 요가블록</p>
-      <div class="tool-tags"><span>요가블록</span><span>16,050원</span></div>
-      <a href="https://bitl.bz/4MFTuS" class="aff-btn" target="_blank" rel="sponsored noopener">최저가 확인하기 →</a>
-    </div>
-
-    <div class="tool-card" style="background:linear-gradient(rgba(20,20,24,.82),rgba(20,20,24,.9)),url('https://picsum.photos/seed/%EC%A7%90%EB%B3%BC/500/500') center/cover no-repeat;">
-      <span class="rank">5위</span>
-      <h3>짐볼 65cm 홈트레이닝 밸런스볼</h3>
-      <p>코어 근력과 균형감각을 키우는 홈트레이닝용 짐볼 (펌프 포함)</p>
-      <div class="tool-tags"><span>짐볼</span><span>38,800원</span></div>
-      <a href="https://bitl.bz/XhpNyd" class="aff-btn" target="_blank" rel="sponsored noopener">최저가 확인하기 →</a>
-    </div>
-
-    <div class="tool-card" style="background:linear-gradient(rgba(20,20,24,.82),rgba(20,20,24,.9)),url('https://picsum.photos/seed/%EC%BC%80%ED%8B%80%EB%B2%A8/500/500') center/cover no-repeat;">
-      <span class="rank">6위</span>
-      <h3>케틀벨 8kg/12kg 홈트레이닝 세트</h3>
-      <p>전신 근력운동에 효과적인 우레탄 코팅 케틀벨</p>
-      <div class="tool-tags"><span>케틀벨</span><span>32,600원</span></div>
-      <a href="https://bitl.bz/X77jva" class="aff-btn" target="_blank" rel="sponsored noopener">최저가 확인하기 →</a>
-    </div>
-
-    <div class="tool-card" style="background:linear-gradient(rgba(20,20,24,.82),rgba(20,20,24,.9)),url('https://picsum.photos/seed/%EB%B0%B4%EB%93%9C%EC%84%B8%ED%8A%B8/500/500') center/cover no-repeat;">
-      <span class="rank">7위</span>
-      <h3>저항 밴드 5종 세트 (강도별)</h3>
-      <p>휴대성이 좋아 어디서나 근력운동이 가능한 저항 밴드 세트</p>
-      <div class="tool-tags"><span>밴드세트</span><span>7,520원</span></div>
-      <a href="https://bitl.bz/O74kAk" class="aff-btn" target="_blank" rel="sponsored noopener">최저가 확인하기 →</a>
-    </div>
-
-    <div class="tool-card" style="background:linear-gradient(rgba(20,20,24,.82),rgba(20,20,24,.9)),url('https://picsum.photos/seed/%ED%91%B8%EC%89%AC%EC%97%85%EB%B0%94/500/500') center/cover no-repeat;">
-      <span class="rank">8위</span>
-      <h3>아디다스 피트니스 퍼포먼스 푸쉬업바</h3>
-      <p>손목 부담을 줄여주는 안정적인 그립의 푸쉬업바</p>
-      <div class="tool-tags"><span>푸쉬업바</span><span>43,740원</span></div>
-      <a href="https://bitl.bz/q5Xte0" class="aff-btn" target="_blank" rel="sponsored noopener">최저가 확인하기 →</a>
+      <h3>폼롤러 사용법</h3>
+      <p>운동 전후 근막이완에 효과적인 폼롤러, 크기별 특징과 부위별 스트레칭 사용법을 안내합니다.</p>
+      <div class="tool-tags"><span>폼롤러</span><span>근막이완</span></div>
+      <a href="posts/foam-roller-usage-guide.html" class="aff-btn">가이드 보러가기 →</a>
     </div>
 
   </div>
-  <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin-top:24px;">이 랭킹의 제휴 링크를 통해 구매가 발생하면 사이트 운영자가 수수료를 받을 수 있습니다.</p>
 </section>
 
 <div class="ad-slot">
@@ -458,19 +397,23 @@
   </div>
 </div>
 
+<div style="max-width:1100px;margin:30px auto 0;padding:0 20px;">
+  <div style="font-size:0.8rem;color:var(--muted);margin-bottom:10px;font-weight:700;">관련 사이트</div>
+  <div style="display:flex;flex-wrap:wrap;gap:10px;">
+    <a href="https://laykim829.github.io/baby-life-lab/" style="font-size:0.8rem;padding:6px 12px;border:1px solid var(--border);border-radius:20px;color:var(--muted);">베이비 라이프 연구소</a>
+    <a href="https://laykim829.github.io/pet-life-lab/" style="font-size:0.8rem;padding:6px 12px;border:1px solid var(--border);border-radius:20px;color:var(--muted);">펫생활 연구소</a>
+    <a href="https://laykim829.github.io/money-habit-lab/" style="font-size:0.8rem;padding:6px 12px;border:1px solid var(--border);border-radius:20px;color:var(--muted);">재테크 습관 연구소</a>
+    <a href="https://laykim829.github.io/supplement-life-lab/" style="font-size:0.8rem;padding:6px 12px;border:1px solid var(--border);border-radius:20px;color:var(--muted);">영양제 연구소</a>
+    <a href="https://laykim829.github.io/ai-side-hustle-site/" style="font-size:0.8rem;padding:6px 12px;border:1px solid var(--border);border-radius:20px;color:var(--muted);">AI 부업 연구소</a>
+    <a href="https://laykim829.github.io/camping-life-lab/" style="font-size:0.8rem;padding:6px 12px;border:1px solid var(--border);border-radius:20px;color:var(--muted);">캠핑라이프 연구소</a>
+    <a href="https://laykim829.github.io/solo-living-lab/" style="font-size:0.8rem;padding:6px 12px;border:1px solid var(--border);border-radius:20px;color:var(--muted);">자취생 연구소</a>
+  </div>
+</div>
+
 <footer id="footer">
   <div class="disclosure">
     ※ 본 사이트의 일부 링크는 제휴 마케팅 링크이며, 이를 통해 발생한 구매에 대해 사이트 운영자가 소정의 수수료를 받을 수 있습니다.
     또한 본 사이트는 광고 게재를 통해 수익을 창출할 수 있습니다. 실제 구매 전 각 제품의 최신 정보를 공식 판매처에서 확인하시기 바랍니다.
-  </div>
-  <div class="sibling-sites" style="max-width:1100px;margin:0 auto 20px;font-size:0.78rem;color:var(--muted);">
-    <span style="font-weight:700;color:var(--text);">함께 운영하는 사이트</span> ·
-    <a href="https://laykim829.github.io/ai-side-hustle-site/" style="color:var(--accent2);">AI 부업 연구소</a> ·
-    <a href="https://laykim829.github.io/pet-life-lab/" style="color:var(--accent2);">펫생활 연구소</a> ·
-    <a href="https://laykim829.github.io/money-habit-lab/" style="color:var(--accent2);">재테크 습관 연구소</a> ·
-    <a href="https://laykim829.github.io/baby-life-lab/" style="color:var(--accent2);">베이비 라이프 연구소</a> ·
-    <a href="https://laykim829.github.io/solo-living-lab/" style="color:var(--accent2);">자취생 연구소</a> ·
-    <a href="https://laykim829.github.io/camping-life-lab/" style="color:var(--accent2);">캠핑라이프 연구소</a>
   </div>
   <div class="footer-wrap">
     <div>© 2026 홈트 연구소. All rights reserved.</div>
@@ -502,7 +445,7 @@
   function renderPosts(grid, list) {
     grid.innerHTML = list.map((post, i) => `
       <div class="blog-card">
-        <div class="blog-thumb" style="background-image:url('https://picsum.photos/seed/${(post.url||'').replace(/^posts\//,'').replace(/\.html$/,'')}/400/240');background-size:cover;background-position:center;"></div>
+        <div class="blog-thumb" style="background:${gradients[i % gradients.length]};"></div>
         <div class="blog-body">
           <div class="cat">${post.category}</div>
           <h3>${post.title}</h3>
